@@ -1,0 +1,447 @@
+.botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 150px;
+    gap: 30px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button{
+    animation: pulse 2s infinite;
+}
+
+.botao1, .botao2, .salvar, .cancelar {
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+.botao1, .salvar{
+    background-color: #0A3871;
+    border: 2px solid #0A3871;
+    color: white;
+    border-radius: 24px;
+    padding: 24px;
+    width: 20rem;
+    height: 4.2rem;
+   
+}
+
+.botao1:active,
+.salvar:active{
+    background-color: transparent; 
+    color: #0A3871;
+}
+
+.botao2, .cancelar{
+    background-color: transparent; 
+    color: #0A3871;
+    border: 2px solid #0A3871; 
+    border-radius: 24px;
+    padding: 24px;
+    width: 20rem;
+    height: 4.2rem;  
+}
+
+.botao2:active,
+.cancelar:active{
+    background-color: #0A3871; 
+    color: white;
+}
+
+input{
+    background: transparent; 
+    border: none; 
+    
+}
+
+.itens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.itens h1{
+    color: #0A3871;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+
+.alerta{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 60px;
+    margin-left: -260px;
+}
+
+.alerta p{
+    color: #495057;
+}
+
+.inicializar{
+    display: flex;
+    flex-direction: row;
+}
+.inicializar .salvar{
+    margin-right: 30px;
+    margin-left: 250px;
+
+}
+
+.base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 200px;
+    gap: 50px;
+}
+
+.tracinho{
+    width: 80px;
+    height: 4px;
+    background-color: #0A3871;
+    
+}
+
+.botoesNovo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 150px;
+    gap: 30px;
+}
+
+.cancelado{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.cancelado h1{
+    text-align: center;
+
+}
+
+.letra{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    font-family: Inter;
+    font-size: 48px;
+    color:#0A3871
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+}
+
+.letrasIncorretas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 50px;
+    color: #495057;
+}
+
+.boneco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+} 
+
+.baseBoneco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    
+}
+
+.baseBonecoVisible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+}
+
+.alinhamentoBoneco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.baseB{
+    width: 294px;
+    height: 5px;
+    background-color: #0A3871;
+    margin-top: 300px;
+    margin-left: 150px;
+}
+
+.verticalB{
+    width: 5px;
+    height: 300px;
+    background-color: #0A3871;
+    margin-left: -240px;    
+}
+
+.horizontalB{
+    width: 200px;
+    height: 5px;
+    background-color: #0A3871;
+    margin-top: -300px;
+    margin-left: -5px;
+    
+}
+
+.verticalpqB{
+    width: 5px;
+    height: 50px;
+    background-color: #0A3871; 
+    margin-top: -250px;
+    margin-left: -5px;
+}
+
+.cabeca{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #0A3871;
+    margin-left: -35px;
+    margin-top: -150px;
+    
+}
+
+.corpinho{
+    width: 5px;
+    height: 135px;
+    background-color: #0A3871;
+    margin-left: -30px;
+    margin-top: 40px;
+    
+}
+
+.bracoD{
+    width: 5px;
+    height: 72px;
+    background-color: #0A3871;
+    rotate: -30deg;
+    margin-left: 12px;
+    margin-top:-30px;
+}
+
+.bracoE{
+    width: 5px;
+    height: 72px;
+    background-color: #0A3871;
+    rotate: 30deg;
+    margin-left: -40px;
+    margin-top:-28px;
+}
+
+.pernaD{
+    width: 5px;
+    height: 72px;
+    background-color: #0A3871;
+    rotate: -30deg;
+    margin-left: 31px;
+    margin-top: 150px;
+}
+
+.pernaE{
+    width: 5px;
+    height: 72px;
+    background-color: #0A3871;
+    rotate: 30deg;
+    margin-left: -40px;
+    margin-top: 148px;
+}
+
+.fim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #0A3871;
+    margin-left: 120px;
+}
+
+.bonecoPlacar{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.placar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#0A3871;
+    color: white;
+    font-family: Inter;
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    margin-top: -250px;
+    margin-left: 100px;
+}
+
+.inLetra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 250px;
+        margin-left: -30px;
+
+    }
+
+    .alerta{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 250px;
+        margin-left: -500px;
+    }
+
+    .botoesNovo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 30px;
+        margin-right: 30px;
+        gap: 30px;
+    }
+
+    .inicializar{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .inicializar .salvar{
+        margin-left: 0px;
+    }
+    .placar1{
+        margin-left: 40px;
+    }
+    
+    .baseB{
+        margin-left: 100px;
+    }
+
+    .base{
+        margin-left: 0px;
+    }
+    
+    .letrasIncorretas{
+        margin-left: 40px;
+
+    }
+
+    .inLetra{
+        
+        margin-left: 100px;
+       
+    }
+
+    .cancelado{
+        margin-left: 30px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 500px) {
+    
+    .inicializar {
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+
+    .alerta{
+        margin-left: -150px;
+    }
+
+    .itens{
+        margin-top: -50px;
+    }
+
+    .letra{
+        font-size: 24px;
+        
+    }
+
+    .base {
+        display: flex;
+        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+        justify-content: center;
+    }
+
+    .tracinho {
+        width: 40px; /* Reduz a largura dos tracinhos para caber melhor na tela */
+        height: 4px;
+        background-color: #0A3871;
+        margin: 5px; /* Adiciona espaço entre os tracinhos */
+    }
+
+    .placar1{
+        margin-left: 5px;
+    }
+
+    .baseB{
+        margin-left: 40px;
+    }
+
+    .inLetra{
+        margin-left: 50px;
+        
+    }
+
+    .letrasIncorretas{
+        margin-left: 0px;
+        
+    }
+}
+
+
+
+
+

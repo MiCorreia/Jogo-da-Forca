@@ -1,0 +1,21 @@
+.boneco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.base{
+    width: 100px;
+    height: 10px;
+}
+
+.barra1{
+    width: 100px;
+    height: 10px;
+}
+
+.barra2{
+    width: 100px;
+    height: 10px;
+}
